@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+</head>
+
+<body>
+    
+    <img src="https://iadnanahmed.com/wp-content/uploads/2020/05/adnan-ahmed-v4-logo.svg" alt="Image Loading" >
+
+
+    <h1 class="main-heading"><b><i>Zakat Calculator </i></b></h1>
+    <div class="boder-of-calculator">
+        <div>
+            <input type="text" placeholder= "C  a  l  c  u  l  a  t  e" class="input-screen">
+        </div>
+
+        <div class="numbers-only">
+            <div>
+                <button class='button-style btn'>7</button>
+                <button class='button-style btn'>8</button>
+                <button class='button-style btn'>9</button>
+                <button class='button-style-special-horizontal-row1 btn'>⌫</button>
+                <button class='button-style-special-horizontal-row1 btn'>C</button>
+
+            </div>
+            <div>
+                <button class='button-style btn'>4</button>
+                <button class='button-style btn'>5</button>
+                <button class='button-style btn'>6</button>
+                <button class='button-style btn'>Currrent Gold</button>
+                <button class='button-style btn'>Currrent Silver</button>
+            </div>
+            <div>
+                <button class='button-style btn'>1</button>
+                <button class='button-style btn'>2</button>
+                <button class='button-style btn'>3</button>
+                <!-- <input type="number" class="button-style-save-screen" placeholder="Add Gold Rate">
+                <button type="button" class='button-style-save btn' >Save</button> -->
+
+                <input type="number" id="inputField" class="button-style-save-screen" placeholder="Add Gold Rate" >
+                <button type="button" onclick="saveInput()" class='button-style-save btn'>Save</button>
+
+
+                <input type="number" class="button-style-save-screen" placeholder="Add Silver Rate">
+                <button type="button" class='button-style-save btn' >Save</button>
+                <!-- <button class='button-style btn'>Add Gold rate</button> -->
+                <!-- <button class='button-style btn'>Add Silver rate</button> -->
+               
+            </div>
+
+        </div>
+        <div>
+      
+            <div>
+                <button class='button-style-special-horizontal btn'>0</button>
+                <button class='button-style-point btn'>.</button>
+                <button class='button-style btn'>-</button>
+                <button class='button-style btn'>+</button>
+                <button class='button-style btn'>X
+                </button>
+                <button class='button-style btn'>=</button>
+                <button class='button-style-special-horizontal-last-row btn'>calculate zakat</button>
+
+
+            </div>
+
+        </div>
+    </div>
+
+<p>@dnan@hmed</p>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+

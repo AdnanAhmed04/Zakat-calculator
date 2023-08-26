@@ -1,0 +1,162 @@
+
+body {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+ }
+p{
+    color: aliceblue;
+    margin-top: 0px;
+}
+img{
+    width: 155px;
+    height: 43px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.main-heading {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(0, 200, 255);
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom:0px;
+    margin-top: -10px;
+}
+
+
+.boder-of-calculator {
+    border: 8px solid  rgb(0, 200, 255);
+    border-radius: 5%;
+    margin-right: 95px;
+    width: 950px;
+    height: 580px;
+    margin:auto;
+}
+
+.button-style {
+    font-family: cursive;
+    font-size: 18px;
+    padding: 40px 50px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    border-radius: 8%;
+    border: 3px solid  rgb(0, 200, 255);
+}
+.button-style-special-horizontal {
+    font-family: cursive;
+    font-size: 18px;
+    width: 115px;
+    height: 110px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    border-radius: 5%;
+    border: 4px rgb(0, 200, 255) solid;
+}
+.button-style-special-horizontal-row1 {
+    font-family: cursive;
+    font-size: 18px;
+    width: 235px;
+    height: 110px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    border-radius: 5%;
+    border: 4px rgb(0, 200, 255) solid;
+}
+.button-style-special-horizontal-last-row {
+    font-family: cursive;
+    font-size: 12px;
+    width: 115px;
+    height: 105px;
+    margin-top:-95px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    border-radius: 5%;
+    border: 4px rgb(0, 200, 255) solid;
+}
+.button-style-save{
+    font-family: cursive;
+    font-size: 18px;
+    width: 60px;
+    height: 50px;
+    margin-top:-95px;
+    margin-bottom: 12px;
+    margin-left: 5px;
+    border-radius: 5%;
+    border: 4px rgb(0, 200, 255) solid; 
+}
+.button-style-save-screen{
+    font-family: cursive;
+    font-size: 18px;
+    width: 155px;
+    height: 95px;
+    margin-top:-95px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    border-radius: 5%;
+    border: 4px rgb(0, 200, 255) solid; 
+}
+
+.button-style-point {
+    font-family: cursive;
+    font-size: 18px;
+    padding: 40px 40px;
+    margin-bottom: 12px;
+    margin-left: 20px;
+    border-radius: 8%;
+    border: 3px rgb(0, 200, 255) solid;
+
+}
+
+.input-screen {
+    padding: 15px 270px;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 3px rgb(0, 200, 255) solid;
+    font-family: cursive;
+    font-size: 25px;
+}
+/* .input-screen:hover{
+    padding: 15px 98px;
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 3.5px rgb(0, 200, 255) solid;
+    font-family: cursive;
+    font-size: 25px;
+}
+.button-style-point:hover{
+    font-family: cursive;
+    font-size: 18px;
+    padding: 40px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    width: 8%;
+    border-radius: 8%;
+    border: 3.3px rgb(0, 200, 255) solid;
+}
+.button-style-special-horizontal:hover{
+    font-family: cursive;
+    font-size: 18px;
+    width: 208px;
+    height: 110px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    border-radius: 5%;
+    border: 3.8px rgb(0, 200, 255) solid;
+}
+.button-style:hover{
+    font-family: cursive;
+    font-size: 18px;
+    padding: 40px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    border-radius: 8%;
+    border: 3.2px solid  rgb(0, 200, 255);
+} */
+
+
